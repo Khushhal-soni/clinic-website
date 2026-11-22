@@ -1,0 +1,11 @@
+@"
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+*.tsbuildinfo
+playwright-report/
+test-results/
+coverage/
+"@ | Add-Content .gitignore

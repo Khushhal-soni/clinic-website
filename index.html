@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#102B50" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23102B50'/%3E%3Ctext x='16' y='22' font-size='18' text-anchor='middle' fill='white' font-family='serif'%3EK%3C/text%3E%3C/svg%3E"
+    />
+    <!--
+      Typography: Manrope (headings, navigation, buttons, UI labels) + Inter (body, forms, articles).
+      One request, variable-font weight ranges (400–700), display=swap, loaded without blocking first paint.
+      Size-adjusted fallback faces in src/index.css keep layout stable while the fonts load.
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Manrope:wght@400..700&display=swap"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Manrope:wght@400..700&display=swap"
+      />
+    </noscript>
+    <title>Dr. Karishma Prajapat | Gynaecologist in Sujangarh</title>
+    <meta
+      name="description"
+      content="Dr. Karishma Prajapat (MBBS, DNB, FMAS) – Consultant Obstetrician, Gynaecologist, Laparoscopic Surgeon and Infertility Specialist at Sujla Hospital, Sujangarh, Rajasthan."
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Physician",
+        "name": "Dr. Karishma Prajapat",
+        "medicalSpecialty": ["Obstetric", "Gynecologic"],
+        "telephone": "+919549706060",
+        "url": "https://karishma.personal.clinic/",
+        "sameAs": ["https://www.instagram.com/drkarishmagynec/"],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Opposite DYSP Office, Ladnun Road / Somani Road",
+          "addressLocality": "Sujangarh",
+          "addressRegion": "Rajasthan",
+          "addressCountry": "IN"
+        },
+        "hasCredential": ["MBBS", "DNB", "FMAS"]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
