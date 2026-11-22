@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://karishma.personal.clinic/sitemap.xml
